@@ -1,0 +1,55 @@
+{
+	"success": {
+		"loginSuccess": "Logged in successfully",
+		"welcome": "success.welcome",
+		"logout": "success.logout",
+		"profileUpdatedSuccessfully": "Profile updated successfully",
+		"savedSuccessfully": "Saved successfully",
+		"candidateInvited": "Candidates invited successfully",
+		"stripeProducts": "Fetched all tests successfully",
+		"stripeCheckoutUrl": "success.stripeCheckoutUrl",
+		"paymentSuccess": "Payment is completed successfully",
+		"dashboardData": "success.dashboardData",
+		"paramsUpdatedSuccessfully": "success.paramsUpdatedSuccessfully",
+		"candidatesimported": "success.candidatesimported",
+		"accountDeactivated": "success.accountDeactivated"
+	},
+	"errors": {
+		"credentialsMisMatch": "Email and password do not match",
+		"somethingBadHappened": "Something went wrong. Please try again after some time",
+		"badRequest": "errors.badRequest",
+		"emailNotRegistered": "Email is not registered with us",
+		"internalServerError": "Error while processing your request. Please try again after some time",
+		"templateNotFound": "Template not found",
+		"paramNotFound": "Parameter not found",
+		"userNotFound": "errors.userNotFound"
+	},
+	"validations": {
+		"required": "validations.required",
+		"invalidEmail": "validations.invalidEmail",
+		"passwordNotMatch": "validations.passwordNotMatch",
+		"usernameNotMatch": "validations.usernameNotMatch",
+		"invalidValue": "validations.invalidValue",
+		"duplicateEmail": "Ya existe Este email",
+		"duplicateUsername": "Este nombre de usuario ya existe"
+	},
+	"emails": {
+		"forgotEmailSubjectes": "Restablecer la contraseña",
+		"sendCredentialsSubject": "Credentials for your account",
+		"sendInvite": "Invitación a participar en un nuevo proceso de reclutamiento laboral.",
+		"welcomeEmailSubjectes": "Por favor confirme su correo electrónico",
+		"testPurchasedSubject": "Tests purchased successfully",
+		"newContactRequest": "Nueva solicitud de contacto recibida"
+	},
+	"verifyLinkSent": "verifyLinkSent",
+	"passwordResetSuccess": "passwordResetSuccess",
+	"credentialsEmailSent": "Email sent successfully",
+	"signUpEmailVerified": "signUpEmailVerified",
+	"signUpLinkExpired": "signUpLinkExpired",
+	"confirmLoginEmail": "Email is not verified yet. Please verify your email before login",
+
+	"helloText" : "Hola",
+	"verifyText" : "Haga clic aquí para verificar su cuenta",
+	"regardsText" : "Saludos cordiales , Recruiters AI"
+
+}

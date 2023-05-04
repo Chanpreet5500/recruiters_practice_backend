@@ -1,0 +1,21 @@
+import { IBaseSchema } from './'
+export interface ITestResult extends IBaseSchema {
+    _id: string,
+    testId: Record<string, unknown>,
+    legibility: string,
+    proportionality_ratio: string,
+    pressure: string,
+    black_pixel_percentage: string,
+    letter_tilt: string,
+    line_slope: string,
+    seperation_between_the_letters: string,
+    seperation_between_the_words: string,
+    signature_distance_to_text: string,
+    signature_legibility: string,
+    signature_position: string,
+    size: string,
+    size_regularity: string,
+    size_variability: string,
+    speed: string,
+    text_stability: string,
+}

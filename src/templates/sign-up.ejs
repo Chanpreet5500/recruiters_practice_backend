@@ -1,0 +1,16 @@
+<html>
+    <body>
+
+        <% if (preferredLanguage  == 'es') { %>
+            <p> Hola  <%= name %>,</p>
+            <p>Haga  <a href="<%= link %>" style="color: blue;" >clic </a>aquí para verificar su cuenta</p>
+            <p>Saludos cordiales,<br />Recruiters AI</p>
+        <% } %>
+
+        <% if (preferredLanguage  == 'en') { %>
+            <p> Hello  <%= name %>,</p>
+            <p>Click  <a href="<%= link %>" style="color: blue;" >here </a>to verify your account</p>
+            <p> Best Regards,<br />Recruiters AI</p>
+        <% } %>
+    </body>
+</html>

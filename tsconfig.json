@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "declaration": false,
+    "outDir": "dist",
+    "removeComments": false,
+    "sourceMap": false,
+    "strict": false,
+    "strictFunctionTypes": false,
+    "strictBindCallApply": false,
+    "target": "es6",
+    "resolveJsonModule": false,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "checkJs": false,
+    "paths": {
+      "@schema": [
+        "src/models/"
+      ],
+      "@utilities/*": [
+        "src/utilities/*"
+      ],
+      "@server": [
+        "src/Server"
+      ],
+      "@controller": [
+        "src/controllers/"
+      ],
+    },
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types","types"
+    ],
+    "lib": [
+      "esnext.asynciterable",
+      "es6",
+      "es2017",
+      "dom"
+  ],
+  },
+  "files": [
+    "./src/declarations/express-extensions.d.ts",
+],
+  "include": [
+    "src/**/*.json",
+    "src/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.p8",
+    "spec/**/*.ts"
+  ],
+  "exclude": [
+    "src/public/",
+    "src/controllers/*.ts",
+    "node_modules"
+  ],
+}
